@@ -1,0 +1,69 @@
+/* ImageIcons.css */
+
+.image-icons-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .icon-container {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .image-icons-page .icon-container:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .round-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-container:hover .round-icon {
+    transform: scale(1.05);
+  }
+  
+  /* movie1.css */
+  
+  /* movie1.css */
+
+/* movie1.css */
+
+.h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff6b6b, #786fa6); /* Gradient from pink to purple */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  h1:hover {
+    background: linear-gradient(135deg, #786fa6, #ff6b6b); /* Adjust gradient for hover effect */
+  }
+  
+  
+  

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}
+
+.app-container {
+  text-align: center;
+}
+
+.brand-text {
+  font-size: 3em;
+  color: black;
+  
+  
+  margin: 0;
+}

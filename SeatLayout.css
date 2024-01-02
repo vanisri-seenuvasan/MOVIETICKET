@@ -1,0 +1,117 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+#Username {
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.screen {
+  width: 100%;
+  height: 20px;
+  background: #4388cc;
+  color: #fff;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.smallBox::before {
+  content: ".";
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-right: 10px;
+}
+
+.greenBox::before {
+  content: "";
+  background: green;
+}
+
+.redBox::before {
+  content: "";
+  background: red;
+}
+
+.emptyBox::before {
+  content: "";
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+  background-color: #ccc;
+}
+
+.seats {
+  border: 1px solid red;
+  background: #ffc107;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.seats:checked {
+  background: green;
+}
+
+.seatGap {
+  width: 40px;
+}
+
+.seatVGap {
+  height: 40px;
+}
+
+table {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Displaytable {
+  text-align: center;
+  margin-top: 20px;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.Displaytable td,
+.Displaytable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+textarea {
+  border: none;
+  background: transparent;
+  width: 100%;
+  resize: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

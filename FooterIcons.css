@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1;
+    /* Add styles for your main content area */
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0; /* Increased padding for better spacing */
+     /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer-icons img {
+    width: 200px; /* Adjust the size of each icon */
+    height: 200px;
+    border-radius: 50%; /* Make the icons circular */
+    margin: 0 15px; /* Increased spacing between icons */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .footer-icons img:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+    box-shadow: 0 0 20px rgba(236, 240, 241, 0.8); /* Soft shadow on hover */
+  }
+  
+  .footer-icons a {
+    color: #ecf0f1; /* Link color */
+    text-decoration: none;
+    margin: 0 15px; /* Increased spacing between links */
+    font-size: 18px; /* Adjust link font size */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-icons a:hover {
+    color: #3498db; /* Change link color on hover */
+  }
+  

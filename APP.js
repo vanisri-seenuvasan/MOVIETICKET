@@ -5,6 +5,7 @@ import Welcome from './Welcome';
 import FooterIcons from './FooterIcons';
 import SearchPage from './SearchPage';
 import ProfileList from './ProfileList';
+import Showering from './Showering';
 import Login from './Login';
 import Register from './Register';
 import Calendar from './Calendar';
@@ -20,7 +21,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<div><Welcome/></div>} />
-        <Route path="/movies" element={<div><MoviesPage/><ProfileList/></div>} />
+        <Route path="/movies" element={<div><MoviesPage/></div>} />
         <Route path="/movie1" element={<Movie1/>}/>
         <Route path="/movie2" element={<Movie2/>}/>
         <Route path="/movie3" element={<Movie3/>}/>
@@ -33,7 +34,10 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/payment" element={<FooterIcons />} />
         <Route path="/time" element={<Timer/>}/>
+        <Route path="/fire" element={<Showering/>}/>
         <Route path="/gpay" element={<PaymentMethod/>}/>
+        <Route path="/logout" element={<Welcome/>}/>
+        
         
       </Routes>
     </Router>

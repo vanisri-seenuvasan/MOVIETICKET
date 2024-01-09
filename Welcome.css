@@ -1,0 +1,74 @@
+
+
+
+.login-button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff4500; /* A vibrant color for the button */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .login-button:hover {
+    background-color: #ff5e2e; /* Darker shade on hover */
+  }
+  
+  /* Optional: Add a subtle shadow to the button for depth */
+  .login-button-container:hover .login-button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .brand-text {
+    font-size: 3em;
+    color: black;
+  text-align: center;
+    
+    
+   
+  }
+  .welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+ 
+  @keyframes wordAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  .book-your-show {
+    font-size: 60px;
+    font-weight: bold;
+    animation: wordAnimation 3s infinite;
+  }
+  
+
+  

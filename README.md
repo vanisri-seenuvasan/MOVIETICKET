@@ -7,6 +7,7 @@ MOVIE LISTING PAGE
 DATE SELECTION PAGE
 ![Screenshot 2025-05-18 134850](https://github.com/user-attachments/assets/9cb5493a-9d50-4192-a193-6c4c5eaff1e7)
 
+
 THEATRE LISTING PAGE
 ![Screenshot 2025-05-18 134928](https://github.com/user-attachments/assets/d575d554-58d9-447e-904c-fcfd98e590ea)
 
